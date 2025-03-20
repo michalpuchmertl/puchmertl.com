@@ -4,41 +4,48 @@ import Layout from "../layouts/Layout.astro";
 
 <Layout>
   <main class="max-w-prose mx-auto mt-12 px-4 md:px-0">
-    <div class="flex flex-col gap-3">
-      <h1
-        class="text-4xl font-black text-zinc-800 dark:text-zinc-100 tracking-tight"
-      >
-        Michal Puchmertl
-      </h1>
-      <p class="text-lg font-medium text-zinc-600 dark:text-zinc-400">
-        I build things. Helping people dodge rental headaches at <a
-          href="https://najmo.cz"
-          target="_blank"
-          class="underline text-blue-500 hover:text-blue-400 underline-offset-2"
-          data-link="najmo">najmo.cz</a
-        > 🪴. Also cofounded <a
-          href="https://cybersmiths.io"
-          target="_blank"
-          class="underline text-blue-500 hover:text-blue-400 underline-offset-2"
-          data-link="cybersmiths">Cybersmiths</a
-        >. It’s not dead, it’s just... very well-rested.
-      </p>
+    <div class="flex gap-8 items-start">
+      <div class="flex flex-col gap-4">
+        <h1
+          class="text-4xl font-black text-zinc-800 dark:text-zinc-100 tracking-tight"
+        >
+          Michal Puchmertl
+        </h1>
+        <p class="text-lg font-medium text-zinc-600 dark:text-zinc-400">
+          I build things. Helping people dodge rental headaches at <a
+            href="https://najmo.cz"
+            target="_blank"
+            class="underline text-blue-500 hover:text-blue-400 underline-offset-2"
+            data-link="najmo">najmo.cz</a
+          > 🪴. Also cofounded <a
+            href="https://cybersmiths.io"
+            target="_blank"
+            class="underline text-blue-500 hover:text-blue-400 underline-offset-2"
+            data-link="cybersmiths">Cybersmiths</a
+          >. It’s not dead, it’s just... very well-rested.
+        </p>
 
-      <div
-        class="flex gap-4 font-semibold text-lg underline underline-offset-2"
-      >
-        <a
-          href="mailto:michal@puchmertl.com"
-          class="text-zinc-800 hover:text-zinc-700 dark:text-zinc-300 dark:hover:text-zinc-100"
-          data-link="email">michal@puchmertl.com</a
+        <div
+          class="flex gap-4 font-semibold text-lg underline underline-offset-2"
         >
-        <a
-          href="https://github.com/michalpuchmertl"
-          target="_blank"
-          class="text-zinc-800 hover:text-zinc-700 dark:text-zinc-300 dark:hover:text-zinc-100"
-          data-link="github">github</a
-        >
+          <a
+            href="mailto:michal@puchmertl.com"
+            class="text-zinc-800 hover:text-zinc-700 dark:text-zinc-300 dark:hover:text-zinc-100"
+            data-link="email">michal@puchmertl.com</a
+          >
+          <a
+            href="https://github.com/michalpuchmertl"
+            target="_blank"
+            class="text-zinc-800 hover:text-zinc-700 dark:text-zinc-300 dark:hover:text-zinc-100"
+            data-link="github">github</a
+          >
+        </div>
       </div>
+      <img
+        src="/profile.webp"
+        alt="Michal Puchmertl"
+        class="w-40 rounded-full hidden md:block"
+      />
     </div>
   </main>
 </Layout>
